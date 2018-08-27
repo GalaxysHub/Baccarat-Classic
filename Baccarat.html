@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Baccarat</title>
+  </head>
+  <body>
+
+    <canvas id="BGCanvas"></canvas>
+    <canvas id="mainCanvas"></canvas>
+    <canvas id="animationCanvas"></canvas>
+    <canvas id="accountCanvas"></canvas>
+
+    <div id="Buttons">
+      <div id="player-btn-container" class="btn-container">
+        <button onclick="gamePlay.setbetOutcomePlayer()" type="button" id="player">Player</button>
+      </div>
+      <div id="tie-btn-container" class="btn-container">
+        <button onclick="gamePlay.setbetOutcomeTie() "type="button" id="tie">Tie</button>
+      </div>
+      <div id="banker-btn-container" class="btn-container">
+        <button onclick="gamePlay.setbetOutcomeBanker() "type="button" id="banker">Banker</button>
+      </div>
+    </div>
+
+    <div id="Account">
+      <input type="image" id="Minus" class="btns" onClick="accountDisplay.decBet();" src="./Images/MiscImages/Minus.png" />
+      <input type="image" id="BlueChip" class="chips" onClick="accountDisplay.blueSelect();" src="./Images/MiscImages/BlueChip.png" />
+      <input type="image" id="GreenChip" class="chips" onClick="accountDisplay.greenSelect();" src="./Images/MiscImages/GreenChip.png" />
+      <input type="image" id="RedChip" class="chips" onClick='accountDisplay.redSelect();' src="./Images/MiscImages/RedChip.png" />
+      <input type="image" id="Plus" class="btns" onClick="accountDisplay.incBet();" src="./Images/MiscImages/Plus.png" />
+    </div>
+
+    <script src = "./JS/asyncHelperFunctions.js"></script>
+    <script src = "./JS/main.js"></script>
+    <script src = "./JS/animations.js"></script>
+    <script src = "./JS/account.js"></script>
+    <script src = "./JS/gamePlay.js"></script>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/TheBlacklist/font.css">
+    <link rel= "stylesheet" type="text/css" href="CSS/Chela/chelafont.css">
+  </body>
+</html>
