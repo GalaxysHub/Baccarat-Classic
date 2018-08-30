@@ -115,7 +115,8 @@ const accountDisplay=(()=>{
   function decBet(){
     let newBet = bet-=chipSelect;
     if(newBet>minBet){bet=newBet;
-    }else{bet=maxBet;}
+    }else{bet=minBet;}
+    displayBet();
   }
 
   function incBet(){
