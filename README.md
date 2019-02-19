@@ -28,6 +28,7 @@ https://wizardofodds.com/games/baccarat/basics/#toc-Rules
 ## Game Features
 
 Change bet size buy selecting the chip values in the bottom left, then add or remove the chip.
+
 Select who to bet on by clicking the words Player, Tie, or Dealer.
 
 ## Third Party Contributions
