@@ -9,19 +9,9 @@ Written in pure Vanilla Javascript with no third-party libraries.
 
 Minimum working version. For personal use only.
 
-See deployed app here: https://baccarat-demo.herokuapp.com/baccarat.html
+See deployed app here: https://baccarat-demo.herokuapp.com/
 
 <img width="907" alt="baccarat" src="https://user-images.githubusercontent.com/39435918/53036750-064f7c80-343e-11e9-8709-a2fef12e9b67.PNG">
-
-
-
-## Download Instructions
-
-Download and unzip the repo.
-
-Open the file named index.html.
-
-If images/fonts are missing, Refresh the page.
 
 ## Game Rules
 
