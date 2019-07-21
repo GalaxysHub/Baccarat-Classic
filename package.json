@@ -1,0 +1,23 @@
+{
+  "name": "baccarat-classic",
+  "version": "1.0.0",
+  "description": "HTML5 Baccarat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GalaxysHub/Baccarat-Classic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GalaxysHub/Baccarat-Classic/issues"
+  },
+  "homepage": "https://github.com/GalaxysHub/Baccarat-Classic#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
